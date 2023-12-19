@@ -1,0 +1,14 @@
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\bin\Debug\net8.0\DrawCircleConsoleApp.exe
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\bin\Debug\net8.0\DrawCircleConsoleApp.deps.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\bin\Debug\net8.0\DrawCircleConsoleApp.runtimeconfig.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\bin\Debug\net8.0\DrawCircleConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\bin\Debug\net8.0\DrawCircleConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\obj\Debug\net8.0\DrawCircleConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\obj\Debug\net8.0\DrawCircleConsoleApp.AssemblyInfoInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\obj\Debug\net8.0\DrawCircleConsoleApp.AssemblyInfo.cs
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\obj\Debug\net8.0\DrawCircleConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\obj\Debug\net8.0\DrawCircleConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\obj\Debug\net8.0\refint\DrawCircleConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\obj\Debug\net8.0\DrawCircleConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\obj\Debug\net8.0\DrawCircleConsoleApp.genruntimeconfig.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawCircleConsoleApp\obj\Debug\net8.0\ref\DrawCircleConsoleApp.dll

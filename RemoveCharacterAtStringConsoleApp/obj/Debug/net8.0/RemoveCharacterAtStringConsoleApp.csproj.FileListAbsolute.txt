@@ -1,0 +1,14 @@
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\bin\Debug\net8.0\RemoveCharacterAtStringConsoleApp.exe
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\bin\Debug\net8.0\RemoveCharacterAtStringConsoleApp.deps.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\bin\Debug\net8.0\RemoveCharacterAtStringConsoleApp.runtimeconfig.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\bin\Debug\net8.0\RemoveCharacterAtStringConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\bin\Debug\net8.0\RemoveCharacterAtStringConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\obj\Debug\net8.0\RemoveCharacterAtStringConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\obj\Debug\net8.0\RemoveCharacterAtStringConsoleApp.AssemblyInfoInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\obj\Debug\net8.0\RemoveCharacterAtStringConsoleApp.AssemblyInfo.cs
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\obj\Debug\net8.0\RemoveCharacterAtStringConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\obj\Debug\net8.0\RemoveCharacterAtStringConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\obj\Debug\net8.0\refint\RemoveCharacterAtStringConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\obj\Debug\net8.0\RemoveCharacterAtStringConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\obj\Debug\net8.0\RemoveCharacterAtStringConsoleApp.genruntimeconfig.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\RemoveCharacterAtStringConsoleApp\obj\Debug\net8.0\ref\RemoveCharacterAtStringConsoleApp.dll

@@ -1,0 +1,14 @@
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\bin\Debug\net8.0\SumOfIntegerParityConsoleApp.exe
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\bin\Debug\net8.0\SumOfIntegerParityConsoleApp.deps.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\bin\Debug\net8.0\SumOfIntegerParityConsoleApp.runtimeconfig.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\bin\Debug\net8.0\SumOfIntegerParityConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\bin\Debug\net8.0\SumOfIntegerParityConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\obj\Debug\net8.0\SumOfIntegerParityConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\obj\Debug\net8.0\SumOfIntegerParityConsoleApp.AssemblyInfoInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\obj\Debug\net8.0\SumOfIntegerParityConsoleApp.AssemblyInfo.cs
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\obj\Debug\net8.0\SumOfIntegerParityConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\obj\Debug\net8.0\SumOfIntegerParityConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\obj\Debug\net8.0\refint\SumOfIntegerParityConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\obj\Debug\net8.0\SumOfIntegerParityConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\obj\Debug\net8.0\SumOfIntegerParityConsoleApp.genruntimeconfig.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\SumOfIntegerParityConsoleApp\obj\Debug\net8.0\ref\SumOfIntegerParityConsoleApp.dll

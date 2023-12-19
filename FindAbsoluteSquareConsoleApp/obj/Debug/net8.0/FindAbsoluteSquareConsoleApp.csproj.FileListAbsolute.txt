@@ -1,0 +1,14 @@
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\bin\Debug\net8.0\FindAbsoluteSquareConsoleApp.exe
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\bin\Debug\net8.0\FindAbsoluteSquareConsoleApp.deps.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\bin\Debug\net8.0\FindAbsoluteSquareConsoleApp.runtimeconfig.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\bin\Debug\net8.0\FindAbsoluteSquareConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\bin\Debug\net8.0\FindAbsoluteSquareConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\obj\Debug\net8.0\FindAbsoluteSquareConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\obj\Debug\net8.0\FindAbsoluteSquareConsoleApp.AssemblyInfoInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\obj\Debug\net8.0\FindAbsoluteSquareConsoleApp.AssemblyInfo.cs
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\obj\Debug\net8.0\FindAbsoluteSquareConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\obj\Debug\net8.0\FindAbsoluteSquareConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\obj\Debug\net8.0\refint\FindAbsoluteSquareConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\obj\Debug\net8.0\FindAbsoluteSquareConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\obj\Debug\net8.0\FindAbsoluteSquareConsoleApp.genruntimeconfig.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\FindAbsoluteSquareConsoleApp\obj\Debug\net8.0\ref\FindAbsoluteSquareConsoleApp.dll

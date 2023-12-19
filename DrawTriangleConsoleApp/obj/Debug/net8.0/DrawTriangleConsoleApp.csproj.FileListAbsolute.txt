@@ -1,0 +1,14 @@
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\bin\Debug\net8.0\DrawTriangleConsoleApp.exe
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\bin\Debug\net8.0\DrawTriangleConsoleApp.deps.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\bin\Debug\net8.0\DrawTriangleConsoleApp.runtimeconfig.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\bin\Debug\net8.0\DrawTriangleConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\bin\Debug\net8.0\DrawTriangleConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\obj\Debug\net8.0\DrawTriangleConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\obj\Debug\net8.0\DrawTriangleConsoleApp.AssemblyInfoInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\obj\Debug\net8.0\DrawTriangleConsoleApp.AssemblyInfo.cs
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\obj\Debug\net8.0\DrawTriangleConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\obj\Debug\net8.0\DrawTriangleConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\obj\Debug\net8.0\refint\DrawTriangleConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\obj\Debug\net8.0\DrawTriangleConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\obj\Debug\net8.0\DrawTriangleConsoleApp.genruntimeconfig.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\DrawTriangleConsoleApp\obj\Debug\net8.0\ref\DrawTriangleConsoleApp.dll

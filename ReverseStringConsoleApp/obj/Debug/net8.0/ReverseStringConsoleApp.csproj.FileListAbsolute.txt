@@ -1,0 +1,14 @@
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\bin\Debug\net8.0\ReverseStringConsoleApp.exe
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\bin\Debug\net8.0\ReverseStringConsoleApp.deps.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\bin\Debug\net8.0\ReverseStringConsoleApp.runtimeconfig.json
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\bin\Debug\net8.0\ReverseStringConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\bin\Debug\net8.0\ReverseStringConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\obj\Debug\net8.0\ReverseStringConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\obj\Debug\net8.0\ReverseStringConsoleApp.AssemblyInfoInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\obj\Debug\net8.0\ReverseStringConsoleApp.AssemblyInfo.cs
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\obj\Debug\net8.0\ReverseStringConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\obj\Debug\net8.0\ReverseStringConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\obj\Debug\net8.0\refint\ReverseStringConsoleApp.dll
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\obj\Debug\net8.0\ReverseStringConsoleApp.pdb
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\obj\Debug\net8.0\ReverseStringConsoleApp.genruntimeconfig.cache
+C:\Users\sahinmaral\Desktop\CSharpChallenges\ReverseStringConsoleApp\obj\Debug\net8.0\ref\ReverseStringConsoleApp.dll
