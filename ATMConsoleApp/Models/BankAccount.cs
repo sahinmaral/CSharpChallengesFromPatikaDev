@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace ATMConsoleApp
+namespace ATMConsoleApp.Models
 {
     class BankAccount
     {

@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using ATMConsoleApp.Models;
 
 namespace ATMConsoleApp
 {
@@ -10,7 +11,7 @@ namespace ATMConsoleApp
         {
             try
             {
-                LoadData();
+                LoadBankAccounts();
 
                 Console.WriteLine("Welcome to ATM");
 
@@ -47,9 +48,10 @@ namespace ATMConsoleApp
         private static void ShowStartupMenu()
         {
             Console.WriteLine("1 -) Login");
-            Console.WriteLine("2 -) Exit");
+            Console.WriteLine("2 -) Get Last Day Reports");
+            Console.WriteLine("3 -) Exit");
 
-            string[] validKeys = ["1", "2"];
+            string[] validKeys = ["1", "2", "3"];
 
             while (true)
             {
@@ -69,6 +71,9 @@ namespace ATMConsoleApp
                             ShowLoginMenu();
                             break;
                         case "2":
+                            GetLastDayLogs();
+                            break;
+                        case "3":
                             Environment.Exit(0);
                             break;
                     }
@@ -95,7 +100,7 @@ namespace ATMConsoleApp
             }
             else if (foundBankAccount.Password != password)
             {
-                //Send log
+                UpdateLogs(new ATMInvalidLoginLog());
                 SendMessage("Password is incorrect, please try again.", MessageTypeEnum.Error);
                 ShowLoginMenu();
             }
@@ -166,7 +171,7 @@ namespace ATMConsoleApp
             }
 
             _bankAccounts.Find(x => x.Id == _currentBankAccount.Id).Balance += depositedMoney;
-            UpdateData();
+            UpdateBankAccounts();
             SendMessage($"{depositedMoney} TRY has been deposited successfully", MessageTypeEnum.Success);
             ShowAppMenu();
         }
@@ -185,7 +190,7 @@ namespace ATMConsoleApp
             }
 
             _bankAccounts.Find(x => x.Id == _currentBankAccount.Id).Balance -= withDrewMoney;
-            UpdateData();
+            UpdateBankAccounts();
             SendMessage($"{withDrewMoney} TRY has been withdrawn successfully", MessageTypeEnum.Success);
             ShowAppMenu();
         }
@@ -216,7 +221,13 @@ namespace ATMConsoleApp
             _bankAccounts.Find(x => x.Id == _currentBankAccount.Id).Balance -= transferedMoney;
             _bankAccounts.Find(x => x.Id == foundBankAccount.Id).Balance += transferedMoney;
 
-            UpdateData();
+            UpdateBankAccounts();
+            UpdateLogs(new ATMTransactionLog()
+            {
+                SentAccountIBAN = _currentBankAccount.IBAN,
+                ReceivedAccountIBAN = foundBankAccount.IBAN,
+                SentMoney = transferedMoney,
+            });
             SendMessage($"{enteredTransferedMoney} TRY has been transfered to {foundBankAccount.IBAN} successfully", MessageTypeEnum.Success);
             ShowAppMenu();
         }
@@ -227,7 +238,7 @@ namespace ATMConsoleApp
             Console.WriteLine($"You have\x1b[1m {_currentBankAccount.Balance}\x1b[0m TRY"); ;
             ShowAppMenu();
         }
-        private static void LoadData()
+        private static void LoadBankAccounts()
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bankAccounts.json");
 
@@ -242,13 +253,67 @@ namespace ATMConsoleApp
                 throw new NullReferenceException("JSON file not found.");
             }
         }
-        private static void UpdateData()
+        private static void UpdateBankAccounts()
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bankAccounts.json");
 
             string jsonContent = JsonSerializer.Serialize(_bankAccounts, new JsonSerializerOptions { WriteIndented = true });
 
             File.WriteAllText(filePath, jsonContent);
+        }
+        private static void GetLastDayLogs()
+        {
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs.json");
+
+            if (File.Exists(filePath))
+            {
+                string jsonContent = File.ReadAllText(filePath);
+
+                List<ATMBaseLog> aTMBaseLogs = JsonSerializer.Deserialize<List<ATMBaseLog>>(jsonContent);
+
+                DateTime cutoffDate = DateTime.UtcNow.AddHours(-24);
+
+                List<ATMBaseLog> logsWithin24Hours = aTMBaseLogs
+                    .Where(log => log.ProcessDate >= cutoffDate)
+                    .ToList();
+
+                string newFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, $"EOD_{DateTime.Now:ddMMyyyy}.json");
+
+                string newJsonContent = JsonSerializer.Serialize(logsWithin24Hours, new JsonSerializerOptions { WriteIndented = true });
+
+                File.WriteAllText(newFilePath, newJsonContent);
+            }
+            else
+            {
+                SendMessage("No logs have been added.", MessageTypeEnum.Warning);
+            }
+        }
+        private static void UpdateLogs(ATMBaseLog atmBaseLog)
+        {
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs.json");
+
+            if (File.Exists(filePath))
+            {
+                string jsonContent = File.ReadAllText(filePath);
+
+                List<ATMBaseLog> aTMBaseLogs = JsonSerializer.Deserialize<List<ATMBaseLog>>(jsonContent);
+
+                aTMBaseLogs.Add(atmBaseLog);
+
+                string newJsonContent = JsonSerializer.Serialize(aTMBaseLogs, new JsonSerializerOptions { WriteIndented = true });
+
+                File.WriteAllText(filePath, newJsonContent);
+            }
+            else
+            {
+                List<ATMBaseLog> aTMBaseLogs = new List<ATMBaseLog>(){
+                    atmBaseLog
+                };
+
+                string newJsonContent = JsonSerializer.Serialize(aTMBaseLogs, new JsonSerializerOptions { WriteIndented = true });
+
+                File.WriteAllText(filePath, newJsonContent);
+            }
         }
     }
 }

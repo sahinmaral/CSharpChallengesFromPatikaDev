@@ -1,4 +1,4 @@
-namespace ATMConsoleApp
+namespace ATMConsoleApp.Models
 {
     enum MessageTypeEnum
     {

@@ -5,7 +5,7 @@
     "password": "12345",
     "firstName": "John",
     "lastName": "Doe",
-    "balance": 180
+    "balance": 170
   },
   {
     "id": "c807cf6d-faf9-4b3f-9ffe-13ff375a29a2",
@@ -13,7 +13,7 @@
     "password": "12345",
     "firstName": "Jane",
     "lastName": "Doe",
-    "balance": 10
+    "balance": 20
   },
   {
     "id": "257bdfed-01ee-4fe3-9af3-7ae7e59c3f38",
