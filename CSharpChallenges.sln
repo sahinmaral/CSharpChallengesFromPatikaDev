@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateAboutGeometricShap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingConsoleApp", "VotingConsoleApp\VotingConsoleApp.csproj", "{CE447D2F-BCC3-4D7A-AEBF-533568CE096C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMConsoleApp", "ATMConsoleApp\ATMConsoleApp.csproj", "{D0FBFE0F-5005-44C9-8824-DAA25EE3D7F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{CE447D2F-BCC3-4D7A-AEBF-533568CE096C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE447D2F-BCC3-4D7A-AEBF-533568CE096C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE447D2F-BCC3-4D7A-AEBF-533568CE096C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FBFE0F-5005-44C9-8824-DAA25EE3D7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FBFE0F-5005-44C9-8824-DAA25EE3D7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FBFE0F-5005-44C9-8824-DAA25EE3D7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FBFE0F-5005-44C9-8824-DAA25EE3D7F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

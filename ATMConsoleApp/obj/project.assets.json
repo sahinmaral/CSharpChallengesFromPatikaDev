@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ConsoleTable/1.0.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/ConsoleTable.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ConsoleTable.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleTable/1.0.1.1": {
+      "sha512": "B0xE1Wn5dGFPPQFLuFhYFby8EuNeZCwLg0Xb8ofq6ZLxlVIEullu3CdrOGWpV6E4GI/fDzQTZkl/61RsbgQ29g==",
+      "type": "package",
+      "path": "consoletable/1.0.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "consoletable.1.0.1.1.nupkg.sha512",
+        "consoletable.nuspec",
+        "lib/netcoreapp3.1/ConsoleTable.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ConsoleTable >= 1.0.1.1"
+    ]
+  },
+  "packageFolders": {
+    "/home/sahinmaral/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/sahinmaral/Desktop/GithubRepositories/CSharpChallengesFromPatikaDev/ATMConsoleApp/ATMConsoleApp.csproj",
+      "projectName": "ATMConsoleApp",
+      "projectPath": "/home/sahinmaral/Desktop/GithubRepositories/CSharpChallengesFromPatikaDev/ATMConsoleApp/ATMConsoleApp.csproj",
+      "packagesPath": "/home/sahinmaral/.nuget/packages/",
+      "outputPath": "/home/sahinmaral/Desktop/GithubRepositories/CSharpChallengesFromPatikaDev/ATMConsoleApp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/sahinmaral/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "ConsoleTable": {
+            "target": "Package",
+            "version": "[1.0.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

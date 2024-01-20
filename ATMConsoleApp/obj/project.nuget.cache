@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zkT586D4bTnRG5zkvBPQEOu9cFrQatJKIKT9AprR2apowTb+ThTKtM2PmmlfXR138NY/tYBTM27ZcuWUGpv1ug==",
+  "success": true,
+  "projectFilePath": "/home/sahinmaral/Desktop/GithubRepositories/CSharpChallengesFromPatikaDev/ATMConsoleApp/ATMConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "/home/sahinmaral/.nuget/packages/consoletable/1.0.1.1/consoletable.1.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

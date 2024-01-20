@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dd8f5929-b477-416b-873e-c9ce7289fa3c",
+    "iban": "TR320010009999901234567890",
+    "password": "12345",
+    "firstName": "John",
+    "lastName": "Doe",
+    "balance": 180
+  },
+  {
+    "id": "c807cf6d-faf9-4b3f-9ffe-13ff375a29a2",
+    "iban": "TR440010009999902345678901",
+    "password": "12345",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "balance": 10
+  },
+  {
+    "id": "257bdfed-01ee-4fe3-9af3-7ae7e59c3f38",
+    "iban": "TR590010009999903456789012",
+    "password": "12345",
+    "firstName": "Jonathan",
+    "lastName": "Doe",
+    "balance": 0
+  },
+  {
+    "id": "1c5c7957-73a4-4717-811d-169b52b9a7d1",
+    "iban": "TR680010009999904567890123",
+    "password": "12345",
+    "firstName": "Johnny",
+    "lastName": "Doe",
+    "balance": 0
+  },
+  {
+    "id": "4faaa64c-9936-473d-a184-18c55c7db5b1",
+    "iban": "TR770010009999905678901234",
+    "password": "12345",
+    "firstName": "Jeremy",
+    "lastName": "Doe",
+    "balance": 0
+  },
+  {
+    "id": "6a1c1f20-24da-47dd-9d5f-e9a776272101",
+    "iban": "TR860010009999906789012345",
+    "password": "12345",
+    "firstName": "Janet",
+    "lastName": "Doe",
+    "balance": 0
+  },
+  {
+    "id": "46c961ef-05a6-4a67-822f-102e8840df28",
+    "iban": "TR950010009999907890123456",
+    "password": "12345",
+    "firstName": "Emily",
+    "lastName": "Doe",
+    "balance": 0
+  },
+  {
+    "id": "7f907887-5290-4700-8429-4a53741d5a59",
+    "iban": "TR020010009999908901234567",
+    "password": "12345",
+    "firstName": "Mia",
+    "lastName": "Doe",
+    "balance": 0
+  },
+  {
+    "id": "16d61bcb-341b-47a6-b325-5943a7292232",
+    "iban": "TR110010009999909012345678",
+    "password": "12345",
+    "firstName": "Adam",
+    "lastName": "Doe",
+    "balance": 0
+  },
+  {
+    "id": "e6faf3ec-5f81-4a34-b4e4-fab49c71b6f0",
+    "iban": "TR200010009999910123456789",
+    "password": "12345",
+    "firstName": "Amy",
+    "lastName": "Doe",
+    "balance": 0
+  }
+]
